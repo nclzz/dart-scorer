@@ -1,0 +1,18 @@
+@import url("https://fonts.googleapis.com/css?family=Exo+2:300,200&display=swap");
+
+body {
+  font-family: "Exo 2", sans-serif;
+  font-weight: 200;
+  background: rgb(15, 14, 17);
+  color: #e5e5e5;
+  margin: 1rem;
+}
+
+#wrapper {
+  display: grid;
+  grid-template-columns: 3fr 2fr 1fr;
+  grid-gap: 1rem;
+}
+#wrapper > div {
+  background: #333;
+}
